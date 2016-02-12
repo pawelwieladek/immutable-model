@@ -1,6 +1,20 @@
 Immutable Model
 ===============
 
+Extend ```Model``` class to provide immutability to your properties.
+
+## API
+
+### createProperty(key: String, value: Any)
+
+Creates immutable property. You can get the ```key``` property, but cannot set.
+
+### createProperties(object: Object)
+
+Create immutable properties based on the provides object.
+
+## Example
+
 ```js
 import Model from 'immutable-model';
 
