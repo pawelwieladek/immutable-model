@@ -37,5 +37,5 @@ console.log(c.z);       // 5
 console.log(`${p}`);    // x: 1 y: 2
 console.log(`${c}`);    // x: 3 y: 4 z: 5
 
-p.x = 0;                // Cannot modify immutable property 'x'
+p.x = 0;                // throw Error: Cannot modify immutable property 'x'
 ```
