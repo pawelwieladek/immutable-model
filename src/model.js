@@ -9,7 +9,7 @@ export default class Model {
         return this[symbol];
       },
       set: function(value) {
-        throw new Error(`Cannot modify immutable property ${key}`);
+        throw new Error(`Cannot modify immutable property '${key}'`);
       }
     });
   }
