@@ -2,7 +2,7 @@
   "name": "immutable-model",
   "version": "0.1.0",
   "description": "Immutable Model",
-  "main": "index.js",
+  "main": "dist/model.js",
   "scripts": {
     "build": "webpack --config webpack.config.js"
   },
