@@ -1,3 +1,6 @@
+Immutable Model
+===============
+
 ```js
 import Model from 'immutable-model';
 
