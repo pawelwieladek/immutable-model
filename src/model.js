@@ -15,10 +15,13 @@ export default class Model {
   }
 
   createProperties(obj) {
+    // todo: verify typeof obj === "object"
     for (let key in obj) {
       if (obj.hasOwnProperty(key)) {
         this.createProperty(key, obj[key]);
       }
     }
   }
+
+  // todo: provide update(obj: Object)
 }
